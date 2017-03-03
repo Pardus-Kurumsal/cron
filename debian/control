@@ -2,7 +2,8 @@ Source: cron
 Section: admin
 Priority: important
 Maintainer: Javier Fernández-Sanguino Peña <jfs@debian.org>
-Uploaders: Christian Kastner <debian@kvr.at>
+Uploaders: Cihangir Akturk <cihangir@pardus.org.tr>
+XSBC-Original-Maintainer: Maintainer: Javier Fernández-Sanguino Peña <jfs@debian.org>
 Standards-Version: 3.9.6
 Build-Depends:
     debhelper (>= 9),
@@ -25,12 +26,11 @@ Depends:
     adduser,
     lsb-base (>= 3.0-10),
     libpam-runtime (>= 1.0.1-11)
-Recommends:
-    exim4 | postfix | mail-transport-agent
 Suggests:
     anacron (>=2.0-1),
     logrotate,
-    checksecurity
+    checksecurity,
+    exim4 | postfix | mail-transport-agent
 Breaks:
     dpkg (<< 1.15.4)
 Provides: cron-daemon
