@@ -29,8 +29,7 @@ Depends:
 Suggests:
     anacron (>=2.0-1),
     logrotate,
-    checksecurity,
-    exim4 | postfix | mail-transport-agent
+    checksecurity
 Breaks:
     dpkg (<< 1.15.4)
 Provides: cron-daemon
