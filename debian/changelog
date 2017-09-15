@@ -1,8 +1,9 @@
-cron (3.0pl1-128pardus2) onyedi; urgency=medium
+cron (3.0pl1-129pardus1) onyedi; urgency=medium
 
+  * Bump debian version to 129 to override debian
   * Remove MTA related packages from Suggests section
 
- -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 12 May 2017 14:45:27 +0300
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 15 Sep 2017 13:57:47 +0300
 
 cron (3.0pl1-128pardus1) unstable; urgency=medium
 
